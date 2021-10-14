@@ -1,3 +1,7 @@
+# Eclipse-generated files
+*.prg
+*.prg.debug
+
 # Prerequisites
 *.d
 
