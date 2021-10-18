@@ -9,7 +9,7 @@ class DaysToChristmasDFView extends WatchUi.SimpleDataField {
     // Set the label of the data field here.
     function initialize() {
         SimpleDataField.initialize();
-        label = "Days to Xmas";
+        label = WatchUi.loadResource(Rez.Strings.DataFieldLabel);
     }
 
     // The given info object contains all the current workout

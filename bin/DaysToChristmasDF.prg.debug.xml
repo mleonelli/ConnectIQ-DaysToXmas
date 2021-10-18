@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\mleonelli\eclipse-workspace\DaysToChristmasDF\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="3" lineNum="7" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="3" lineNum="8" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="4" lineNum="12" pc="268435479" symbol="onStart"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="5" lineNum="16" pc="268435484" symbol="onStop"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="6" lineNum="20" pc="268435489" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="6" lineNum="21" pc="268435493" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="6" lineNum="5" pc="268435958" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="7" lineNum="26" pc="268435531" symbol="getApp"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFApp.mc" id="7" lineNum="27" pc="268435543" symbol="getApp"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="9" lineNum="10" pc="268435560" symbol="initialize"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="9" lineNum="11" pc="268435564" symbol="initialize"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="9" lineNum="12" pc="268435582" symbol="initialize"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="19" pc="268435626" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="21" pc="268435630" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="22" pc="268435682" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="24" pc="268435713" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="25" pc="268435723" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="26" pc="268435760" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="29" pc="268435773" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="34" pc="268435838" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="35" pc="268435895" symbol="compute"/>
+        <entry filename="C:\\Users\\mleonelli\\eclipse-workspace\\DaysToChristmasDF\\source\\DaysToChristmasDFView.mc" id="10" lineNum="7" pc="268435939" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="17" lineNum="1" pc="268435909" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="14" symbol="DataFieldLabel"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="8388938" symbol="month"/>
+        <entry id="8388924" module="true" symbol="Gregorian"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="15" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="12" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="10" object="true" symbol="DaysToChristmasDFView"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="9" object="true" symbol="DaysToChristmasDFApp"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8388939" symbol="day"/>
+        <entry field="true" id="8388940" symbol="year"/>
+        <entry id="11" module="true" symbol="Layouts"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+        <entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
+        <entry endPc="268435906" name="today" stackId="2" startPc="268435630"/>
+        <entry endPc="268435906" name="year" stackId="4" startPc="268435630"/>
+        <entry endPc="268435906" name="todayInfo" stackId="3" startPc="268435630"/>
+        <entry endPc="268435906" name="moment" stackId="6" startPc="268435630"/>
+        <entry endPc="268435906" name="xmas" stackId="5" startPc="268435630"/>
+        <entry arg="true" endPc="268435907" name="info" stackId="1" startPc="268435626"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DataFieldLabel"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="237" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="276" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="307" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="338" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="369" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="400" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/DaysToChristmasDFView" offset="447" parentId="globals" symbolId="DaysToChristmasDFView" type="class"/>
+        <dataEntry label="globals/DaysToChristmasDFApp" offset="502" parentId="globals" symbolId="DaysToChristmasDFApp" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="initialize" parent="DaysToChristmasDFApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="DaysToChristmasDFApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="DaysToChristmasDFApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="DaysToChristmasDFApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="DaysToChristmasDFView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="compute" parent="DaysToChristmasDFView">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
