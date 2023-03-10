@@ -1,0 +1,145 @@
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 1; ]
+import Toybox.Activity;
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 3; ]
+import Toybox.Time;
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 5; ]
+import Toybox.Time.Gregorian;
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 7; ]
+class DaysToChristmasDFView extends WatchUi.SimpleDataField{
+    [ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 10; ]
+    function initialize() as Void {
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_10_26_start:
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 11 8 ]
+        %tmp.2 = getv ? :SimpleDataField;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 12 8 ]
+        %tmp.4 = getm $.Toybox.WatchUi;
+        %tmp.5 = getv function %tmp.4 :loadResource;
+        %tmp.7 = getv ? :Rez;
+        %tmp.8 = getv %tmp.7 :Strings;
+        %tmp.9 = getv %tmp.8 :DataFieldLabel;
+        %tmp.10 = invoke %tmp.4 %tmp.5(%tmp.9);
+        putv self :label %tmp.10;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_10_26_stop:
+    }
+    [ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 19; ]
+    function compute(info as Activity.Info) as Numeric or Duration or String or Null {
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start:
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 21 8 ]
+        [ "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start" "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop" ]
+        %today.1 = local;
+        %tmp.3 = getm $.Toybox.Time;
+        %tmp.4 = getv function ? %tmp.3 :Moment;
+        %tmp.5 = getm $.Toybox.Time;
+        %tmp.6 = getv function %tmp.5 :today;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = getv function %tmp.7 :value;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.1 = newc %tmp.4 (%tmp.9);
+        lputv %today.1 %tmp.1;
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 22 8 ]
+        [ "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start" "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop" ]
+        %todayInfo.2 = local;
+        %tmp.10 = getm $.Toybox.Time.Gregorian;
+        %tmp.11 = getv function %tmp.10 :info;
+        %tmp.13 = lgetv %today.1;
+        %tmp.14 = getm $.Toybox.Time;
+        %tmp.15 = getv %tmp.14 :FORMAT_SHORT;
+        %tmp.16 = invoke %tmp.10 %tmp.11(%tmp.13, %tmp.15);
+        lputv %todayInfo.2 %tmp.16;
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 24 8 ]
+        [ "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start" "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop" ]
+        %year.3 = local;
+        %tmp.17 = lgetv %todayInfo.2;
+        %tmp.18 = getv %tmp.17 :year;
+        lputv %year.3 %tmp.18;
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 25 8 ]
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_8_if_stmt:
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_12_begin:
+        %tmp.19 = lgetv %todayInfo.2;
+        %tmp.20 = getv %tmp.19 :month;
+        %tmp.21 = 12;
+        %tmp.22 = eq %tmp.20 %tmp.21;
+        %tmp.23 = dup %tmp.22;
+        bf %tmp.23 @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_37_end;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_37_true:
+        %tmp.24 = lgetv %todayInfo.2;
+        %tmp.25 = getv %tmp.24 :day;
+        %tmp.26 = 25;
+        %tmp.27 = gt %tmp.25 %tmp.26;
+        %tmp.28 = and %tmp.22 %tmp.27;
+        push %tmp.28;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_37_end:
+        %tmp.29 = phi [%tmp.23 @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_12_begin] [%tmp.28 @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_37_true] [%tmp.29 @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_37_end];
+        bf %tmp.29 @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_8_if_end;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_8_if_true:
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_57_start:
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 26 9 ]
+        %tmp.31 = lgetv %year.3;
+        %tmp.32 = 1;
+        %tmp.33 = add %tmp.31 %tmp.32;
+        lputv %year.3 %tmp.33;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_57_stop:
+        goto @C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_8_if_end;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_25_8_if_end:
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 29 8 ]
+        [ "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start" "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop" ]
+        %xmas.4 = local;
+        %tmp.34 = getm $.Toybox.Time.Gregorian;
+        %tmp.35 = getv function %tmp.34 :moment;
+        %tmp.36 = newd 3;
+        %tmp.38 = const :year;
+        %tmp.39 = lgetv %todayInfo.2;
+        %tmp.40 = getv %tmp.39 :year;
+        %tmp.41 = dup %tmp.36;
+        %tmp.42 = aputv %tmp.41 %tmp.38 %tmp.40;
+        %tmp.44 = const :month;
+        %tmp.45 = 12;
+        %tmp.46 = dup %tmp.42;
+        %tmp.47 = aputv %tmp.46 %tmp.44 %tmp.45;
+        %tmp.49 = const :day;
+        %tmp.50 = 25;
+        %tmp.51 = dup %tmp.47;
+        %tmp.52 = aputv %tmp.51 %tmp.49 %tmp.50;
+        %tmp.53 = invoke %tmp.34 %tmp.35(%tmp.52);
+        lputv %xmas.4 %tmp.53;
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 34 2 ]
+        [ "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_start" "C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop" ]
+        %moment.5 = local;
+        %tmp.54 = lgetv %xmas.4;
+        %tmp.55 = getv function %tmp.54 :subtract;
+        %tmp.57 = lgetv %today.1;
+        %tmp.58 = invoke %tmp.54 %tmp.55(%tmp.57);
+        %tmp.59 = getv function %tmp.58 :divide;
+        %tmp.60 = 60;
+        %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
+        %tmp.62 = getv function %tmp.61 :divide;
+        %tmp.63 = 60;
+        %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
+        %tmp.65 = getv function %tmp.64 :divide;
+        %tmp.66 = 24;
+        %tmp.67 = invoke %tmp.64 %tmp.65(%tmp.66);
+        lputv %moment.5 %tmp.67;
+[ "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc" 35 8 ]
+        %tmp.68 = lgetv %moment.5;
+        %tmp.69 = getv function %tmp.68 :value;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        ret %tmp.70;
+C_Users_Mauro_OneDrive_Documents_GitHub_ConnectIQ_DaysToXmas_source_DaysToChristmasDFView_mc_19_85_stop:
+    }
+}
+[ @file = "C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\source\DaysToChristmasDFView.mc"; @line = 1; ]
+<init> {
+}

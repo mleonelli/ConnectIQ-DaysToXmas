@@ -27,7 +27,7 @@ class DaysToChristmasDFView extends WatchUi.SimpleDataField {
         }
         
         var xmas = Gregorian.moment({
-		    :year   => todayInfo.year,
+		    :year   => year,
 		    :month  => 12,
 		    :day    => 25
 		});

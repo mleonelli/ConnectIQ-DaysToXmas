@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Mauro\OneDrive\Documents\GitHub\ConnectIQ-DaysToXmas\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="Rez.mc" id="2" lineNum="1" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="3" lineNum="7" parent="globals/DaysToChristmasDFView" pc="268435510" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="19" parent="globals/DaysToChristmasDFView" pc="268435529" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="21" parent="globals/DaysToChristmasDFView" pc="268435533" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="22" parent="globals/DaysToChristmasDFView" pc="268435585" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="24" parent="globals/DaysToChristmasDFView" pc="268435609" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="25" parent="globals/DaysToChristmasDFView" pc="268435619" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="26" parent="globals/DaysToChristmasDFView" pc="268435656" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="29" parent="globals/DaysToChristmasDFView" pc="268435669" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="34" parent="globals/DaysToChristmasDFView" pc="268435734" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="4" lineNum="35" parent="globals/DaysToChristmasDFView" pc="268435791" symbol="compute"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="5" lineNum="10" parent="globals/DaysToChristmasDFView" pc="268435803" symbol="initialize"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="5" lineNum="11" parent="globals/DaysToChristmasDFView" pc="268435805" symbol="initialize"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFView.mc" id="5" lineNum="12" parent="globals/DaysToChristmasDFView" pc="268435823" symbol="initialize"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="6" lineNum="5" parent="globals/DaysToChristmasDFApp" pc="268435871" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="7" lineNum="12" parent="globals/DaysToChristmasDFApp" pc="268435890" symbol="onStart"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="8" lineNum="20" parent="globals/DaysToChristmasDFApp" pc="268435893" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="8" lineNum="21" parent="globals/DaysToChristmasDFApp" pc="268435895" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="9" lineNum="7" parent="globals/DaysToChristmasDFApp" pc="268435936" symbol="initialize"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="9" lineNum="8" parent="globals/DaysToChristmasDFApp" pc="268435938" symbol="initialize"/>
+<entry filename="C:\\Users\\Mauro\\OneDrive\\Documents\\GitHub\\ConnectIQ-DaysToXmas\\source\\DaysToChristmasDFApp.mc" id="10" lineNum="16" parent="globals/DaysToChristmasDFApp" pc="268435957" symbol="onStop"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="15" symbol="DataFieldLabel"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="8388938" symbol="month"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388631" module="true" symbol="Activity"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="10" object="true" symbol="DaysToChristmasDFView"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="9" object="true" symbol="DaysToChristmasDFApp"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8388939" symbol="day"/>
+<entry field="true" id="8388940" symbol="year"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435802" name="info" stackId="1" startPc="268435529"/>
+<entry endPc="268435802" name="today" stackId="2" startPc="268435533"/>
+<entry endPc="268435802" name="todayInfo" stackId="3" startPc="268435533"/>
+<entry endPc="268435802" name="year" stackId="4" startPc="268435533"/>
+<entry endPc="268435802" name="xmas" stackId="5" startPc="268435533"/>
+<entry endPc="268435802" name="moment" stackId="6" startPc="268435533"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DataFieldLabel"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/DaysToChristmasDFView" offset="237" parentId="globals" symbolId="DaysToChristmasDFView" type="class"/>
+<dataEntry label="globals/DaysToChristmasDFApp" offset="292" parentId="globals" symbolId="DaysToChristmasDFApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="363" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="402" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="433" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="464" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="495" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="542" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435486">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="DaysToChristmasDFView" startPc="268435510">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435802" name="compute" parent="DaysToChristmasDFView" startPc="268435529">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435870" name="initialize" parent="DaysToChristmasDFView" startPc="268435803">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435889" name="&lt;init&gt;" parent="DaysToChristmasDFApp" startPc="268435871">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435892" name="onStart" parent="DaysToChristmasDFApp" startPc="268435890">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435935" name="getInitialView" parent="DaysToChristmasDFApp" startPc="268435893">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435956" name="initialize" parent="DaysToChristmasDFApp" startPc="268435936">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435959" name="onStop" parent="DaysToChristmasDFApp" startPc="268435957">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
